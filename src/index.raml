@@ -1,0 +1,21 @@
+#%RAML 0.8
+---
+title: RAML Builder
+version: v1.0
+baseUri: https://www.example.com
+mediaType: application/json
+
+schemas:
+resourceTypes:           
+traits:
+  
+documentation:
+  - title: Overview
+    content: |
+        API documentation for the AmericasMart Record Management Tool. This API
+        uses conventions from [JSON API](http://jsonapi.org/), but without the
+        hypermedia support.
+
+/:
+  get:
+    description: Root request.
