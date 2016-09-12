@@ -27,3 +27,4 @@ These conventions are part of the `gulpfile.js`. Both the watchers and builders 
 3. Modify the `index.raml` to add endpoints.
 4. Include schemas as you normally would through RAML: `schema: !include resources/resource.schema.json`
 5. Within schemas and JSON, reference snippets: `"!include('resources/definitions/resource.schema.def.json')"`
+
